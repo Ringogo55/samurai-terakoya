@@ -1,0 +1,13 @@
+package Kaddai_015;
+
+public class CarExec_Chapter15 {
+	public static void main(String[] args) {
+		//車のインスタンスを生成
+		Car_Chapter15 gear = new Car_Chapter15();
+		
+		//ギアチャンジし、その結果を表示する
+		gear.gearChange(3);
+		gear.run();
+		
+	}
+}
