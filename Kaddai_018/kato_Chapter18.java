@@ -17,7 +17,7 @@ abstract public class kato_Chapter18 {
   }
 	//共通の紹介を出力
 	public void commonIntroduce() { 
-        System.out.println("名前は" + familyName + " " + givenName);
+        System.out.println("名前は" + familyName + givenName);
         System.out.println("住所は" + address);     
     }
     
